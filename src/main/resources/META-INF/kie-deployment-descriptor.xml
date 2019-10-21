@@ -16,6 +16,12 @@
             <parameters/>
             <name>CamelCXFConnector</name>
         </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new org.jbpm.process.workitem.camel.FTPCamelWorkitemHandler()</identifier>
+            <parameters/>
+            <name>CamelFTPConnector</name>
+        </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
     <configurations/>
