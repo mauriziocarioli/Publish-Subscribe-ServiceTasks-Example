@@ -40,6 +40,12 @@
             <parameters/>
             <name>CamelFTPSConnector</name>
         </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new org.jbpm.process.workitem.camel.JMSCamelWorkitemHandler()</identifier>
+            <parameters/>
+            <name>CamelJMSConnector</name>
+        </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
     <configurations/>
